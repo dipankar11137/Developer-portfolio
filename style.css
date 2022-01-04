@@ -8,8 +8,9 @@ h1{
 .color-name{
     color: chocolate;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
 width: 50%;
@@ -32,4 +33,31 @@ padding-left: 5%;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+
+.dream-big{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-big h1{
+    font-style: 700px;
+}
+.half-width2{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width2 img{
+    width: 70%;
+    padding: 5%;
+}
+.link-button2{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(179, 129, 38),rgb(71, 255, 184));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: rgb(20, 11, 11);
+    font-weight: 700px;
+
 }

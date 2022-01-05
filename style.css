@@ -47,6 +47,13 @@ padding-left: 5%;
 .half-width2{
     width: 50%;
     padding-left: 5%;
+    font-weight: 70%;
+    
+}
+.half-width2 p{
+   
+    margin-right: 150px;
+    padding: 10px;
 }
 .half-width2 img{
     width: 70%;

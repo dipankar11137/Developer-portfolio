@@ -4,6 +4,7 @@ body{
 }
 h1{
     font-size: 50px;
+    
 }
 .color-name{
     color: chocolate;
@@ -15,6 +16,7 @@ h1{
 .half-width{
 width: 50%;
 padding-left: 5%;
+box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
 }
 .half-width img{
     width: 80%;
@@ -66,5 +68,38 @@ padding-left: 5%;
     border-radius: 5px;
     color: rgb(20, 11, 11);
     font-weight: 700px;
+
+}
+.expriance-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding: 10px;
+    border-left: 10px solid;
+    
+}
+.expriance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#web-developer-expriance{
+    border-left: 7px,solid;
+   border-image: linear-gradient(blue,cyan); 
+   border-image-slice: 1;
+}
+#full-stack-expriance{
+    border-left: 7px,solid;
+    border-image: linear-gradient(rgb(255, 0, 106),rgb(9, 255, 0)); 
+    border-image-slice: 1;  
+}
+footer{
+    text-align: center;
+    background-color: gray;
+    padding: 0%;
+   
 
 }

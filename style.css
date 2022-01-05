@@ -16,11 +16,12 @@ h1{
 .half-width{
 width: 50%;
 padding-left: 5%;
-box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+
 }
 .half-width img{
     width: 80%;
     padding-top: 10%;
+    border-radius: 100%;
 }
 .link-button{
     text-decoration: none;
@@ -60,6 +61,7 @@ box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
 .half-width2 img{
     width: 70%;
     padding: 5%;
+    border-radius: 100%;
 }
 .link-button2{
     text-decoration: none;

@@ -22,6 +22,7 @@ padding-left: 5%;
     width: 80%;
     padding-top: 10%;
     border-radius: 100%;
+    padding-left: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -35,6 +36,7 @@ padding-left: 5%;
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    background-color: gray;
     
 }
 
